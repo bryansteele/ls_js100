@@ -15,6 +15,9 @@ function localGreet(locale) {
     case 'US': return 'Hey!';
     case 'GB': return 'Hello!';
     case 'AU': return 'Howdy!';
+    case 'FR': return 'Salut!';
+    case 'CA': return 'Salut!';
+    case 'MA': return 'Salut!';
     default: return greet(language);
   }
 }
